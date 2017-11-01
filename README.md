@@ -194,3 +194,33 @@ style comment:
 
 This is the attribution message that appears at the bottom of the CSSCV page.
 Including the message is not mandatory, but is appreciated.
+
+#Spanish Traduction
+
+#CSSCV
+
+**CSSCV es una simple, obstinada hoja de  estilo para formatear HTML semántico para ser 
+visto como un archivo CSS.**
+
+## Empezando
+
+La forma mas simple de comenzar con CSSCV es sumergirse en el HTML y editarlo! 
+No hay nada en el Sass que no sea usado en el HTML, asi que el archivo 'index.html',
+actúa como un comprensivo y real ejemplo de lo que CSSSCV puede hacer.
+
+Below is a more detailed overview of the ins-and-outs of the way CSSCV works.
+
+Abajo, hay un mas detallado descripción de los pros y contras de la manera en que CSSCV trabaja. 
+
+## Obstinado?
+
+CSSCV coincide con mi estilo personal de escribir CSS , y usa un específico 
+esquema de color [<cite>Solarized</cite>](http://ethanschoonover.com/solarized). Algunos de 
+sus otras características mas obstinadas: 
+
+* [Solo simples clases son permitidas como selectores](http://csswizardry.com/2012/05/keep-your-css-selectors-short/)
+* [Usa un BEM-estilo nombrado por convención] (http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+* [Los conjuntos de reglas son abordados por cinco secciones](https://github.com/csswizardry/CSS-Guidelines#section-titles)
+* [cuasi-anidadas conjuntos de reglas son identadas](https://github.com/csswizardry/CSS-Guidelines#anatomy-of-rulesets)
+* [Todas las identaciones son de cuatro espacios](https://github.com/csswizardry/CSS-Guidelines#anatomy-of-rulesets)
+
