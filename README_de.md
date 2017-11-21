@@ -1,6 +1,7 @@
-#CSSCV
+#CSSCV 
 
-**CSSCV ist ein einfaches, dogmatisches Stylesheet, um semantisches HTML wie CSS eine CSS-Datei aussehen zu lassen.**
+**CSSCV ist ein einfaches, dogmatisches Stylesheet, um semantisches HTML wie CSS eine CSS-Datei aussehen zu lassen
+.**
 
 ## Einstieg
 
@@ -136,6 +137,7 @@ CSS besitzt viele Komma-getrennten Listen von Merkmalswerten. In CSSCV realisier
 ### `.element` und `.modifier`
 
 Diese zwei Klassen erlauben es, eine [Namensgebung im BEM-Stil zu nutzen](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/), ohne das Markup zu verschmutzen. Um ein Element oder Modifizierer zu kennzeichen, wird die passende Klasse genutzt. Es muss außerdem das `data-namespace` genutzt werden, um den korrekten Block Name der Klasse voranzustellen, z. B.:
+
     <h3 class="selector">Job</h3>
 
     ...
