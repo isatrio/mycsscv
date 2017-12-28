@@ -1,21 +1,22 @@
 #CSSCV
 
-**CSSCV is a simple, opinionated stylesheet for formatting semantic HTML to look
-like a CSS file.**
+**CSSCV est une feuille de style simple et opiniâtre pour le formatage du HTML sémantique pour ressembler à un fichier CSS.**
 
-## Getting started
+## Commencer
 
-The simplest way to get started with CSSCV is to dive right into the HTML and
-get editing! There is nothing in the Sass that isn’t used in the HTML, so the
-`index.html` file acts as a comprehensive, real-world demo of what CSSCV can do.
+Le moyen le plus simple pour commencer avec CSSCV est de plonger directement dans le HTML et
+obtenir l'édition! Il n'y a rien dans le Sass qui n'est pas utilisé dans le HTML, de sorte que le
+Le fichier `index.html` est une démonstration complète et concrète de ce que CSSCV peut faire.
 
-Below is a more detailed overview of the ins-and-outs of the way CSSCV works.
+
+Voici un aperçu plus détaillé des tenants et aboutissants du fonctionnement du CSSCV.
 
 ## Opinionated?
 
-CSSCV matches my own personal style of writing CSS, and uses a specific colour
-scheme, [<cite>Solarized</cite>](http://ethanschoonover.com/solarized). Some of
-its other more opinionated features:
+Dogmatique?
+CSSCV correspond à mon propre style d'écriture CSS, et utilise une couleur spécifique
+schéma, [<cite> Solarized </ cite>](http://ethanschoonover.com/solarized). Une partie de
+ses autres caractéristiques plus opiniâtres:
 
 * [Only single classes are allowed as selectors](http://csswizardry.com/2012/05/keep-your-css-selectors-short/)
 * [It uses a BEM-style naming convention](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
@@ -161,17 +162,15 @@ and append `)` to it.
 
 ### `.value-list`
 
-CSS often contains comma-delimited lists of values. In CSSCV we mark these up
-as `ul`s and `li`s. The `ul` take the `.value-list` class.
-
+CSS contient souvent des listes de valeurs séparées par des virgules. En CSSCV, nous les marquons
+comme `ul`s et` li`s. Le `ul` prend la classe` .value-list`.
 ### `.element` and `.modifier`
 
-These two classes allow you to use
+Ces deux classes vous permettent d'utiliser
 [BEM-style naming](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
-without polluting your markup. To signify an element or modifier, use the
-corresponding class. You need to also use the `data-namespace` attribute in
-order to prepend the class with the correct block name, e.g.:
-
+sans polluer votre balisage. Pour indiquer un élément ou un modificateur, utilisez le
+classe correspondante. Vous devez également utiliser l'attribut `data-namespace` dans
+afin de préfixer la classe avec le nom de bloc correct, par exemple:
     <h3 class="selector">Job</h3>
 
     ...
@@ -180,9 +179,10 @@ order to prepend the class with the correct block name, e.g.:
 
 ### `.comment`, `.comment-block` and `.comment-block__line`
 
-These classes, unsurprisingly, style markup to look like comments. The `.comment`
-class gives an inline comment, whilst `.comment-block` gives us a DocBlock
-style comment:
+
+Ces classes, sans surprise, style de balisage pour ressembler à des commentaires. Le `.comment`
+class donne un commentaire en ligne, tandis que `.comment-block` nous donne un DocBlock
+commentaire de style:
 
     <p class="comment-block">
         <span class="comment-block__line">Foo</span>
@@ -192,5 +192,5 @@ style comment:
 
 ### `.notice`
 
-This is the attribution message that appears at the bottom of the CSSCV page.
-Including the message is not mandatory, but is appreciated.
+C'est le message d'attribution qui apparaît en bas de la page CSSCV.
+Y compris le message n'est pas obligatoire, mais est apprécié.
